@@ -19,7 +19,7 @@ while value.lower() != "q":
     print("Tempo No. "+str(lapnum))
     print("Seu tempo foi: "+str(laptime), "segundos.")
             
-    print("_"*20)
+    print("-"*20)
   
     # Updating the previous total time and lap number
     lasttime = time.time()
