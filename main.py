@@ -8,7 +8,6 @@ value = ""
 print("Aperte ENTER Para gravar o seu tempo.\n Aperte Q e aperte ENTER para finalizar o seu treino.")
   
 while value.lower() != "q":
-              
     # Input for the ENTER key press
     value = input()
   
