@@ -17,11 +17,11 @@ print('Aperte Espaço para começar a inspeção: ')
 keyboard.wait('space')
 while tempo_atual < tempo_total:
     tempo_restante = tempo_total - tempo_atual
-    print('\r{} segundos'.format(tempo_restante), end='')
+    print('\r{} segundos '.format(tempo_restante), end='')
     time.sleep(1)
     tempo_atual += 1
     if keyboard.is_pressed('space'):
-        pass
+        break
         
 if tempo_atual >= tempo_total:
     tempoini = time.time()
