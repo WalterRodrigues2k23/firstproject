@@ -8,7 +8,7 @@ def print_time(total_seconds):
     print('Tempo total: {:02d} h : {:02d} m : {:02d} s. {} '.format(hours, mins, seconds, mlsec))
 
 input('Aperte ENTER para começar a inspeção: ')
-time.sleep(15)
+time.sleep(0.1)
 input('Aperte ENTER para começar: ')
 tempoini = time.time()
 mlsec = repr(tempoini).split('.')[1][:3]
